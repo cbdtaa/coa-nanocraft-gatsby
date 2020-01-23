@@ -1,9 +1,6 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+// Makes enviorment variables in .env available
+require("dotenv").config();
 
 module.exports = {
-  /* Your site config here */
-}
+  plugins: [`gatsby-plugin-emotion`, `gatsby-plugin-react-helmet`]
+};
