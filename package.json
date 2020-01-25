@@ -1,7 +1,7 @@
 {
-  "name": "oxbld-gatsby-starter",
+  "name": "coa-nanocraft-gatsby",
   "private": true,
-  "description": "A starting place for OXBLD Gatsby projects",
+  "description": "NanoCraft CBD's COA pages.",
   "version": "0.1.0",
   "dependencies": {
     "@emotion/core": "^10.0.27",
