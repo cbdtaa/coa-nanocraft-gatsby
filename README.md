@@ -1,12 +1,30 @@
 # OXBLD Gatsby Starter
 
-## Notes
+NOTE: This repository has been set as a Template repository and can be used to create new repositories by clicking the "Use this template" button in the oxbld-starter-gatsby repo.
 
-- Only added emotion/core not styled
+This is a base starter for OXBLD Gatsby projects. It contains the necessary packages and styles needed to get started.
 
-## TODO
+Packages:
 
-- Learn about licensing and add one
-- Add GitHub Link to package.json
-- Make notes on proper .env file use and figure out safe way to store/share
-- Note common use of date-fns
+- @emotion/core
+- date-fns
+- dotenv
+- gatsby
+- gatsby-image
+- gatsby-plugin-emotion
+- gatsby-plugin-react-helmet
+- react
+- react-dom
+- react-helmet
+
+devDependencies:
+
+- babel-eslint
+- eslint
+- eslint-config-prettier
+- eslint-plugin-import
+- eslint-plugin-jsx-a11y
+- eslint-plugin-react
+- prettier
+
+Included you will find the necessary configuration files with a basic Layout component. The Layout component contains starter styles and CSS variables set at to a global scope using Emotion.
